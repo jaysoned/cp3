@@ -5,6 +5,9 @@
       <router-link class="nav-link" to="/Add">Add Book</router-link>
     </div>
     <router-view/>
+    <div class="footer">
+    <a href="https://github.com/jaysoned/cp3" target="_blank">Github Code</a>
+  </div>
   </div>
 </template>
 
@@ -40,6 +43,23 @@
 
 #nav a.router-link-exact-active {
   color: #428db9;
+}
+
+.footer {
+  height: 50px;
+  padding: 20px 100px 0px 100px;
+  background:  #2c3e50;
+  font-size: 12px;
+}
+
+.footer a {
+  color: rgb(255, 255, 255);
+  padding-left: 50px;
+}
+
+.footer a:hover {
+  color: rgb(172, 172, 172);
+  text-decoration: none;
 }
 
 </style>
